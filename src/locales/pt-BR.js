@@ -10,6 +10,10 @@ import settingDrawer from './pt-BR/settingDrawer';
 import settings from './pt-BR/settings';
 import pwa from './pt-BR/pwa';
 import component from './pt-BR/component';
+<<<<<<< HEAD
+=======
+import editor from './pt-BR/editor';
+>>>>>>> upstream/master
 
 export default {
   'navBar.lang': 'Idiomas',
@@ -32,4 +36,8 @@ export default {
   ...settings,
   ...pwa,
   ...component,
+<<<<<<< HEAD
+=======
+  ...editor,
+>>>>>>> upstream/master
 };

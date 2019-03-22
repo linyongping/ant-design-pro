@@ -10,6 +10,10 @@ import settingDrawer from './en-US/settingDrawer';
 import settings from './en-US/settings';
 import pwa from './en-US/pwa';
 import component from './en-US/component';
+<<<<<<< HEAD
+=======
+import editor from './en-US/editor';
+>>>>>>> upstream/master
 
 export default {
   'navBar.lang': 'Languages',
@@ -32,4 +36,8 @@ export default {
   ...settings,
   ...pwa,
   ...component,
+<<<<<<< HEAD
+=======
+  ...editor,
+>>>>>>> upstream/master
 };

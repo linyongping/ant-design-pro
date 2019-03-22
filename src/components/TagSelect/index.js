@@ -18,7 +18,11 @@ TagSelectOption.isTagSelectOption = true;
 class TagSelect extends Component {
   static propTypes = {
     actionsText: PropTypes.object,
+<<<<<<< HEAD
     hideCheckAll: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+=======
+    hideCheckAll: PropTypes.bool,
+>>>>>>> upstream/master
   };
 
   static defaultProps = {
